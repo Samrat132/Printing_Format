@@ -4,9 +4,11 @@
   Print the down payment.
 '''
 price_of_house = 1000000
-good_credit = int(input('The total assets the buyer has:'))
+good_credit =True
+
 down_10_percent = 0.1*1000000
 doen_20_percent = 0.2*1000000
+
 if good_credit:
     print(f"The total down payment after 10% is {price_of_house -down_10_percent}")
 else:
