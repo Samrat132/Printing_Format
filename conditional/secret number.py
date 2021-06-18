@@ -10,5 +10,6 @@ while attempt >=0:
         print('Congrates! You guess it right.')
         break
     else:
-      print(f"{attempt} attempt left")
+      print(f"You have {attempt} attempt left")
       attempt=attempt-1
+
