@@ -13,7 +13,6 @@ WAP = print(f"The total marks of four subject is {total_marks} , percentage is {
 
 if percentage>70:
    print('A ')
-
 elif percentage>60:
     print('B ')
 
