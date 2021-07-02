@@ -14,7 +14,7 @@ def check(num):
     print('It is not a prime number')
 
 
-check(7)
+check(4)
 
 
 
